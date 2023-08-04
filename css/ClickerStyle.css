@@ -1,0 +1,171 @@
+#multiplierDisplayTroy {
+  display: flex;
+  flex-direction: row;
+}
+
+#autoClickerDisplayTroy {
+  display: flex;
+  flex-direction: row;
+}
+
+#multiplierDisplayM {
+  display: flex;
+  flex-direction: row;
+}
+
+#autoClickerDisplayM {
+  display: flex;
+  flex-direction: row;
+}
+
+#multiplierDisplayA {
+  display: flex;
+  flex-direction: row;
+}
+
+#autoClickerDisplayA {
+  display: flex;
+  flex-direction: row;
+}
+
+#multiplierDisplayS {
+  display: flex;
+  flex-direction: row;
+}
+
+#autoClickerDisplayS {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+.image-button {
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*.image-button img {*/
+/*  height: 50px; !* adjust as necessary *!*/
+/*  width: 50px;  !* adjust as necessary *!*/
+/*}*/
+
+img {
+  height: 120px;
+  width: 100px;
+}
+
+#reset {
+  height: 70px;
+  width: 125px;
+}
+
+#clickCountMillie {
+  font-family: "Audiowide", sans-serif;
+  font-size:40px;
+  color: Tomato;
+}
+
+#clickCountSarah {
+  font-family: "Audiowide", sans-serif;
+  font-size:40px;
+  color: Tomato;
+}
+
+#clickCountTroy {
+  font-family: "Audiowide", sans-serif;
+  font-size:40px;
+  color: MediumSeaGreen;
+}
+
+#clickCountArcher {
+  font-family: "Audiowide", sans-serif;
+  font-size:40px;
+  color: MediumSeaGreen;
+}
+
+
+
+
+#millieClicker h1 {
+  color: Orange;
+}
+
+#troyClicker h1 {
+  color: DodgerBlue;
+}
+
+#sarahClicker h1 {
+  color: Orange;
+}
+
+#archerClicker h1 {
+  color: DodgerBlue;
+}
+
+
+
+#millieClicker {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ #troyClicker {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sarahClicker {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#archerClicker {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#clickers {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#resetButton {
+  position: fixed; /* or absolute, depending on your needs */
+  left: 50%;
+  bottom: 20px; /* you can adjust this value as necessary */
+  transform: translateX(-50%); /* this shifts the button back to center it horizontally */
+}
+
+#clickers > div {
+  margin-bottom: 20px; /* add space between each clicker div */
+}
+
+#autoButton {
+  display: none;
+}
+
+#multiplyButton {
+  display: none;
+}
+
+
